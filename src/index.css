@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* animation */
+@keyframes tick {
+  0% {
+       transform: scale(1);     
+      }
+           
+  60% {
+       transform: scale(1.150);     
+      }
+
+  100%{         
+        transform: scale(1);
+     }
+  
+}
+
+.bubble{
+  animation: tick infinite 1s ;
+}
+
+.bio__header{
+  background: linear-gradient(159deg, rgba(37, 37, 50, .98) 0%, rgba(35, 35, 45, .98) 100%);;
+}
