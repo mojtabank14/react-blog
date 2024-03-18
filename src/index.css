@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "iransans";
+  src: url("./styles/fonts/iransans.ttf");
+}
+
+*{
+  font-family: "iransans";
+}
+
 /* animation */
 @keyframes tick {
   0% {

@@ -1,19 +1,25 @@
-import './App.css';
+import './styles/css/App.css';
 // 
 import bioimg from "./download.jpg";
 
 
 function App() {
   return (
-    <main className='app__wraper h-screen w-full bg-[#191923] flex items-center justify-center'>
+    <main className='app__wraper h-screen w-full bg-[#191923] flex items-center justify-center' dir='rtl'>
       
       <div
       className='app__content
         w-full md:max-w-md lg:max-w-6xl
-        grid grid-cols-[290px,auto] h-[calc(100vh-40px)] gap-5
+        grid grid-cols-[auto,290px] h-[calc(100vh-40px)] gap-5
          '>
 
-          {/* biographi */}
+         
+          
+          {/* content */}
+          <section className='bg-red-200'>
+              
+          </section>
+           {/* biographi */}
           <aside className="bio bg-[#20202a] 
           ">
               <header className='bio__header h-[235px] flex flex-col items-center justify-center'>
@@ -42,10 +48,6 @@ function App() {
               
           </aside>
 
-          {/* content */}
-          <section className='bg-red-200'>
-              
-          </section>
       </div>
     </main>
   );
